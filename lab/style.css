@@ -1,0 +1,51 @@
+body {
+    background-color:#1b1b1b;
+    font-family: 'Gill Sans', Calibri;
+    text-align: center;
+}
+.titulo {
+    color: rgb(189, 196, 235);
+}
+.cont {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 500px;
+    height: 900px;
+    text-align: center;
+    background-color: #474747;
+    color: rgb(155, 155, 223);
+    border-radius: 1%;
+       
+}
+.datos {
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    
+}
+.button {
+    width: 400px;
+    height: 50px; 
+    border-radius: 5px;
+    border-color: #474747;
+    border-width: 5px;
+    margin: -60px;
+}
+.enviar {
+    background-color: #664ed1;
+    color: rgb(255, 255, 255);
+    width: 80%;
+    height: 8%;
+    border-radius: 5px;
+}
+.fantasma {
+    visibility: hidden;
+    color: red;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
