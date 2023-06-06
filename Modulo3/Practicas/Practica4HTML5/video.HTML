@@ -1,0 +1,31 @@
+<html>
+<head>
+</head>
+<body>
+
+    <video id="video" controls>
+    <source src="video.mp4" type="video/mp4">
+    </video>
+
+<div>
+ <button
+onclick="document.getElementById('video').play();">Iniciar</button>
+ <button
+onclick="document.getElementById('video').pause();">Parar</button>
+ <button onclick="document.getElementById('video').volume +=
+0.2;">Subir Volumen</button>
+ <button onclick="document.getElementById('video').volume -=
+0.2;">Bajar Volumen</button>
+</div>
+
+
+<script>
+    let vid = document.getElementById('video');
+    vid.onloadstart = function(){
+        alert("Se esta cargando el video");
+    };
+</script>
+
+
+</body>
+</html>
