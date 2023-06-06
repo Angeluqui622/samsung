@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <listaCompra>
+    <supermercado1>
+      <Nombre>Mercadona</Nombre>
+      <Direccion>Calle Mendez Alvaro, 38, Madrid</Direccion>
+      <Geolocalizacion>
+        <norte>52°36'24</norte>
+        <sur></sur>
+        <este>20°36'52</este>
+        <oeste></oeste>
+      </Geolocalizacion>
+    </supermercado1>
+    <supermercado1>
+      <ofertas>
+        <nombre>Gambas</nombre>
+        <oferta>500g gratis por compras superiores a 50€</oferta>
+        <descripcion>gamba del norte</descripcion>
+        <origen>España</origen>
+        <vigencia>20/07/23</vigencia>
+      </ofertas>
+      <ofertas>
+        <nombre>bombones</nombre>
+        <oferta>2x1</oferta>
+        <descripcion>surtido bombones</descripcion>
+        <origen>España</origen>
+        <vigencia>29/08/23</vigencia>
+      </ofertas>
+    </supermercado1>
+    <supermercado1>
+      <productos>
+        <nombre>leche soja</nombre>
+        <descripcion>leche soja marca asturiana</descripcion>
+        <unidades>Pack de 6 de 1L</unidades>
+        <medida>Litros</medida>
+        <origen>España</origen>
+        <perecedero>true</perecedero>
+        <precio>3.9</precio>
+        <adquirido>false</adquirido>
+      </productos>
+      <productos>
+        <nombre>pavo</nombre>
+        <descripcion>pavo en lonchas finisimas</descripcion>
+        <unidades>10 lonchas (75g)</unidades>
+        <medida>Gramos</medida>
+        <origen>España</origen>
+        <perecedero>true</perecedero>
+        <precio>7.99</precio>
+        <adquirido>true</adquirido>
+      </productos>
+      <productos>
+        <nombre>platano</nombre>
+        <descripcion>platano de canarias</descripcion>
+        <unidades>10 platanos (350g)</unidades>
+        <medida>Gramos</medida>
+        <origen>España</origen>
+        <perecedero>true</perecedero>
+        <precio>4.99</precio>
+        <adquirido>false</adquirido>
+      </productos>
+    </supermercado1>
+  </listaCompra>
+</root>

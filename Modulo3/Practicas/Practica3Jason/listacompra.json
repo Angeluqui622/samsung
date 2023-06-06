@@ -1,0 +1,182 @@
+{
+    "listaCompra" : [
+        {
+            "supermercado1" : [
+                {
+                "Nombre": "Mercadona",
+                "Direccion": "Calle Mendez Alvaro, 38, Madrid",
+                "Geolocalizacion": ["52°36'24 N",
+                "20°36'52 E"]
+                },
+                {
+                "ofertas" : [
+                    {
+                    "nombre": "Gambas",
+                    "oferta": "500g gratis por compras superiores a 50€",
+                    "descripcion": "gamba del norte",
+                    "origen": "España",
+                    "vigencia": "20/07/23"
+                    },
+                    {
+                    "nombre": "bombones",
+                    "oferta": "2x1",
+                    "descripcion": "surtido bombones",
+                    "origen": "España",
+                    "vigencia": "29/08/23"
+                    }]
+                },
+                {
+                "productos" : [
+                    {
+                    "nombre": "leche soja",
+                    "descripcion": "leche soja marca asturiana",
+                    "unidades":"Pack de 6 de 1L",
+                    "medida":"Litros",
+                    "origen": "España",
+                    "perecedero": true,
+                    "precio": 3.90,
+                    "adquirido" : false
+                    },
+                    {
+                    "nombre": "pavo",
+                    "descripcion": "pavo en lonchas finisimas",
+                    "unidades":"10 lonchas (75g)",
+                    "medida":"Gramos",
+                    "origen": "España",
+                    "perecedero": true,
+                    "precio": 7.99,
+                    "adquirido" : true
+                    },
+                    {
+                    "nombre": "platano",
+                    "descripcion": "platano de canarias",
+                    "unidades":"10 platanos (350g)",
+                    "medida":"Gramos",
+                    "origen": "España",
+                    "perecedero": true,
+                    "precio": 4.99,
+                    "adquirido" : false
+                    }]
+                
+                }]
+        },
+        { 
+            "supermercado2" : [
+                {
+                "Nombre": "Carrefour",
+                "Direccion": "Calle Aquitania, 38, Madrid",
+                "Geolocalizacion": ["25°16'33 N",
+                "56°14'25 E"]
+                },
+                {
+                "ofertas" : [
+                    {
+                    "nombre": "Frutos secos",
+                    "oferta": "3x1",
+                    "descripcion": "Llevandote 3 bolsas de nueces pagas 1 ",
+                    "origen": "España",
+                    "vigencia": "15/07/23"
+                    },
+                    {
+                    "nombre": "Sartenes",
+                    "oferta": "29.99",
+                    "descripcion": "Juego de sartenes",
+                    "origen": "España",
+                    "vigencia": "Todo 2023"
+                    }]
+                },
+                {
+                "productos" : [
+                    {
+                    "nombre": "ColaCao",
+                    "descripcion": "Paquete de 1Kg",
+                    "unidades":"2",
+                    "medida":"Gramos",
+                    "origen": "España",
+                    "perecedero": false,
+                    "precio": 7.99,
+                    "adquirido" : false
+                    },
+                    {
+                    "nombre": "Cafe",
+                    "descripcion": "Cafe en capsulas",
+                    "unidades":"10 capsulas",
+                    "medida":"Gramos",
+                    "origen": "España",
+                    "perecedero": true,
+                    "precio": 5.60,
+                    "adquirido" : false
+                    },
+                    {
+                    "nombre": "Yogurt",
+                    "descripcion": "Yogurt griego de stracciatella",
+                    "unidades":"Pack de 8 yogures",
+                    "medida":"Gramos",
+                    "origen": "Italia",
+                    "perecedero": true,
+                    "precio": 8.99,
+                    "adquirido" : false
+                    }]
+                }]
+        },
+        {
+            "supermercado3" : [
+                {
+                "Nombre": "Aldi",
+                "Direccion": "Calle Almudena, 21, Madrid",
+                "Geolocalizacion": ["25°42'36 N",
+                "54°26'28 E"]
+                },
+                {
+                "ofertas" : [
+                    {
+                    "nombre": "Toalla piscina",
+                    "oferta": "2 toallas por 15.99",
+                    "descripcion": "Toallas de Disney",
+                    "origen": "España",
+                    "vigencia": "03/07/23"
+                    },
+                    {
+                    "nombre": "Crema de Sol",
+                    "oferta": "4x3",
+                    "descripcion": "Crema de sol Nivea",
+                    "origen": "España",
+                    "vigencia": "26/08/23"
+                    }]
+                },
+                {
+                "productos" : [
+                    {
+                    "nombre": "Jamon iberico",
+                    "descripcion": "Pata negra",
+                    "unidades":"1 pieza",
+                    "medida":"Gramos",
+                    "origen": "España",
+                    "perecedero": true,
+                    "precio": 100.60,
+                    "adquirido" : false
+                    },
+                    {
+                    "nombre": "Galletas TostaRica",
+                    "descripcion": "Galletas con chocolate",
+                    "unidades":"1 Pack de 500g",
+                    "medida":"Gramos",
+                    "origen": "España",
+                    "perecedero": true,
+                    "precio": 5.00,
+                    "adquirido" : false
+                    },
+                    {
+                    "nombre": "Magdalenas",
+                    "descripcion": "Magdalenas con glaseado",
+                    "unidades":"20",
+                    "medida":"Gramos",
+                    "origen": "España",
+                    "perecedero": true,
+                    "precio": 4.99,
+                    "adquirido" : false
+                    }]
+                
+                }]
+        }]
+}
