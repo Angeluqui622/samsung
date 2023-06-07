@@ -1,0 +1,22 @@
+body {
+    background-color: #79b2e0;
+}
+.group {
+    background-color: rgb(227, 238, 241);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    margin-left: 45%;
+    position: fixed;
+    line-height: 30px;
+    font-weight: bold;
+    
+}
+
+.form-btn {
+    background-color: rgb(51, 107, 230);
+    color:rgb(255, 255, 255);
+}
